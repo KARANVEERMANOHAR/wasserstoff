@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .navbar-logo {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  
+  .navbar-search {
+    padding: 0 10px;
+  }
+  
+  .navbar-search input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 25px;
+  }
+  
+  .navbar-tabs {
+    display: flex;
+  }
+  
+  .navbar-tabs a {
+    color: gray;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navbar-tabs a:hover {
+    color: black;
+  }
+  
+  .navbar-tabs a.active {
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  
